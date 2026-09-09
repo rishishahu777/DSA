@@ -1,6 +1,6 @@
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-       HashMap<Integer, Integer> map = new HashMap<>();
+      HashMap<Integer, Integer> map = new HashMap<>();
 
        for(int i = 0; i<nums.length; i++){
         
@@ -10,5 +10,6 @@ class Solution {
             map.put(nums[i], i);
        }
        return false;
+
     }
 }
